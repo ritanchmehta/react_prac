@@ -4,7 +4,8 @@ import './App.css'
 
 function App() {
   
-  const [counter, setCounter] = useState(15) // useState returns us value in the form of an array structured as: [variable, function()]
+  const [counter, setCounter] = useState(15) // useState returns us value in the form of an array structured as: [variable, function(initial value of variable)]
+                                             // initial value of the variable can be : number, boolean,array, object, method[not recommended]
   //let counter = 15;
 
   const addValue = () => {
